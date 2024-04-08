@@ -1,0 +1,166 @@
+
+    .nav-link:hover{
+        background-color:aquamarine;
+    }
+    .nav-link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: larger;
+        padding: 20px;
+    }
+
+    .carousel-item img{
+        width:60%;
+        height: 400px;
+        justify-content: center;
+    }
+.contact-us{
+    text-emphasis: none;
+    text-align: center;
+    padding-inline-start: 20;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 9px;
+}
+.pre-text{
+    background-color: burlywood;
+    width: 100px;
+}
+.pre-text:hover{
+    background-color: aqua
+     ;
+}
+table{
+    margin-left: 200px;
+    justify-content: center;
+    width: 100%;
+}.image:hover{
+    transform: scale(1,1)rotate(360deg);
+  }
+.mb-4{
+    margin-left: 20px;
+}
+
+/*this is a test file */
+.p{
+    font-size: 12px;
+    color: aqua;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-color: chartreuse;
+}
+.col-md-3{
+    background-color: khaki;
+}
+.col-md-6{
+    background-color: khaki;
+    width: auto-fit;
+}
+
+
+.product{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.product-image{
+    width: 80%;
+    height: 250px;
+    transition: transform 3s ease;
+}
+button{
+    background-color:khaki;
+    width: 400px;
+    height: 50px;
+
+}
+#our-services{
+    background-color: #f8f9fa;
+    padding: 30px;
+}
+.card{
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-title{
+    font-weight: bold;
+}
+.card-text{
+    font-style: italic;
+}
+
+
+
+   /* Custom styling for the divs */
+   .image-container {
+    background-color: yellow; /* Light gray background color */
+    padding: 60px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    height: 250px;
+    width:250px; }
+    .image-fliud:hover{
+      background-color:blue;
+    }
+    .text{
+      font-size: 11px;
+      color:#413839;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-decoration-color:#413839 ;
+    }
+    .product {
+      margin-bottom: 30px;
+      margin-top:20px ;
+  }
+  .product img {
+      width: 80%;
+      height: 250px;
+      transition: transform 5s ease;
+      padding-top: 20px;
+  }
+.im
+ 
+  button{
+    background-color: #904A3B;
+    width: 400px;
+    height: 50px;
+
+  }
+.col-md-10{
+    display: grid;
+    place-items: center;
+    height: 100vh; /*Full viewport height*/
+    padding-left: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* Styles to center the div */
+    .col-md-7 {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0; /* Optional: Background color for visualization */
+        
+    }
+
+    #card{
+        /* Add any additional styles you want for the card */
+        border: 1px solid #ccc;
+        padding: 20px;
+        background-color: #fff;
+        padding-left: 20rem;
+
+    }
+
+  .product img:hover {
+    transform: scale(1.3); /* Change the scale factor as needed */
+    transition: trasform 2s ease; /* Add transition for smooth effect */
+    
+}

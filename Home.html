@@ -1,0 +1,176 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demonstration</title>
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">   
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="javascript"href="script.js">
+  <style>
+    /* Custom styling for the carousel */
+    .carousel-item img {
+      width: 100%;
+      height: 400px;
+    }
+    .sliding-text {
+      animation: slideIn 2s ease-in-out; /* Adjust animation duration as needed */
+    }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: khaki !important" style="position: fixed !important; width :100%;">
+      <a class="navbar-brand" href="#"><img src="IMAGE/Screenshot 2024-03-11 111127.png" alt="logo" height="80px" width="80px"></a>
+      <h3>Kylian's Pizza Hub</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html"> Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><i class="fas fa-user"></i> Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html"><i class="fas fa-user"></i> Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add to cart.html"><i class="fas fa-user"></i></a>
+          </li>
+          <li class="nav-item">    
+            <a class="nav-link" href=""><i class="fas fa-user"></i> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16">
+              <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0z"/>
+            </svg></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="container mt-5">
+        <marquee behavior="scroll" direction="left"> <h3 class="text-center mb-4 sliding-text" style="color: brown;">(っ◔◡◔)っ ♥ Welcome to kylian's pizza hub♥<b> 𝐸𝒶𝓉 𝒾𝓉....𝒯𝒶𝓈𝓉𝑒 𝒾𝓉....𝐿𝑜𝓋𝑒 𝒾𝓉!!!/</b></h3></marquee>
+  
+      <!-- Carousel -->
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="IMAGE/HOME.png" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item active">
+            
+            <img src="IMAGE/close-up-pizza-cardboard-box-against-white-background-pizza-delivery-pizza-menu_130181-1244.jpg" class="d-block w-100" alt="Image 1">
+          </div>
+          <div class="carousel-item">
+            <img src="IMAGE/mushroom-pizza-vegetarian-white-background-isolated-still-life-copy-space-top-view-flat-lay_639032-303.jpg" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+            <img src="IMAGE/isolated-pizza-with-meat-vegetables-white_219193-5971.jpg" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+            <img src="IMAGE/meat-chicken-mushrooms-pizza-isolated-white-background-top-view-photo-menu_639032-224.jpg" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item">        
+            <img src="IMAGE/seafood-pizza_1203-8950.jpg" class="d-block w-100" alt="Image 3">
+          </div>
+        </div>
+      </div>
+      <div id="our-services" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Our Services</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="IMAGE/close-up-pizza-cardboard-box-against-white-background-pizza-delivery-pizza-menu_130181-1244.jpg" class="card-img-top" alt="Testimonial Image"style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Catering services</h5>
+                  <p class="card-text">During Parties or any other events we offer Catering services where we send our team to come and prepare for you your meal and also serve you guests.We also give out free cocktail juices during the event which our resturat caters for.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="IMAGE/pizza-its-box_1101-88.jpg" class="card-img-top" alt="Testimonial Image"style="height: 220px;">
+                <div class="card-body">
+                  <h5 class="card-title">Pizza Deliveries</h5>
+                  <p class="card-text">We offer free deliveries witin Nairobi County but we charge Ksh 250.00 for deliveries outside Nairobi but within the area. 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="IMAGE/mushroom-pizza-vegetarian-white-background-isolated-still-life-copy-space-top-view-flat-lay_639032-303.jpg" class="card-img-top" alt="Testimonial Image"style="height: 200px;">
+                <div class="card-body">
+                  <h5 class="card-title">Pizza Offers</h5>
+                  <p class="card-text">At Kylian's Pizza Hub we have offers on Thursadys and Sundays inorder to begin your week with stlye.This is where when you buy one large Pizza you will get one free plus two cocktails of your choice </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+      <div class="footer">
+        <footer class="footer mt-auto py-3 bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h5>Kylian's pizza hub</h5>
+                <p>Established in 2024.</p> 
+                <img src="IMAGE/view-cartoon-male-chef-with-delicious-3d-pizza_23-2151017591.jpg " alt="logo" style="height:100px">
+              </div>
+              <div class="col-md-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="Home.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="product.html"> product</a></li>
+                <li><a href="contact.html"> contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h5>Kylian's pizza hub</h5>
+                <ul class="list-unstyled">
+                  <li>123 Tom Mboya,Nairobi</li>
+                  <li>Phone: (124) 456-7890</li>
+                  <li>Email: info@kylian'spizzahub.com</li>
+                </ul>
+            </div>
+          </div>
+        </footer>
+        </div>
+        
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+
+
